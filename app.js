@@ -13,5 +13,12 @@ function run(event){
     cepCode = cepCode.replace(' ','')
     cepCode = cepCode.replace('.','')
 
-    console.log(cepCode)
+    axios
+        .get('https://viacep.com.br/ws/'+cepCode+'/json/')
+        .then(function(response){
+            console.log(response.data)
+        })
+        .catch(function(error){
+            console.log(error)
+        })
 }

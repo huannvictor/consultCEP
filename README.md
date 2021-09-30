@@ -1,3 +1,4 @@
+----
 <p align='left'><em>:earth_americas:	 lang='en'</em><p>
 <h1 align='center'>CEP Checking</h1>
 
@@ -12,9 +13,14 @@ This project has been done from Cataline.io's Base Camp course.
 - CSS3
 - javascript
 
-## The API address: 
+#### The API address: 
+----
 
-<p align='left'><em>:earth_americas:	 lang='pt-br'</em><p>
+<!---
+<h3 align='center'><em>keep scrolling to see the preview images of the final result<em></h3>
+-->
+
+<p align='left'><em>:earth_americas: lang='pt-br'</em><p>
 <h1 align='center'>Checagem de CEP</h1>
 
 A proposta desse projeto é mostrar um app simples que busca um CEP informado na página e retorna na mesma as informações do CEP em questão.
@@ -26,4 +32,7 @@ Esse projeto foi feito a partir do curso no BaseCamp da Cataline.io
 - CSS3
 - javascript
 
-## O endereço do API: 
+#### O endereço do API: 
+<!---
+<h3 align='center'><em>continue rolando para ver as imagens do resultado final<em></h3>
+-->

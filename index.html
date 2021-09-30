@@ -5,7 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultor de CEP</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    margin: 0;
+    background: steelblue;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: aliceblue;    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+}
+#app{
+    background: aliceblue;
+    border-radius: 0.4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+form input{
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: steelblue;
+    width: 120px;
+    outline: none;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+form input::placeholder{
+    color: steelblue;
+}
+form button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border-radius: 5rem;
+    border: none;
+    width: max-content;
+    font-size: 1.3rem;
+    background: linear-gradient(to right,  #40ddb6, #2850d2);
+    font-weight: 100;
+    outline: none;
+    cursor: pointer;
+}
+main{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+p:nth-child(1) {
+  padding-top: 1.3rem;
+}
+p {
+  color: #4091dd;
+  font-size: 1.1rem;
+  margin: 0.6rem 0;
+}
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
     <div id="app">
@@ -15,7 +82,7 @@
         </form>
         <main></main>
     </div>
-    
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
 </body>

@@ -14,12 +14,11 @@ This project has been done from Cataline.io's Base Camp course.
 - javascript
 
 #### The API address: 
-----
 
-<!---
 <h3 align='center'><em>keep scrolling to see the preview images of the final result<em></h3>
--->
 
+  ---
+  
 <p align='left'><em>:earth_americas: lang='pt-br'</em><p>
 <h1 align='center'>Checagem de CEP</h1>
 
@@ -33,6 +32,11 @@ Esse projeto foi feito a partir do curso no BaseCamp da Cataline.io
 - javascript
 
 #### O endereço do API: 
-<!---
+  
 <h3 align='center'><em>continue rolando para ver as imagens do resultado final<em></h3>
--->
+  
+  ---
+  
+<h2 align='center'>
+  <img src="https://raw.githubusercontent.com/huannvictor/consultCEP/main/consultingCEP.png" />
+</h3> 

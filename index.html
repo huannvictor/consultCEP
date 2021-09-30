@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultor de CEP</title>
     <style>
-        body{
+    body{
     margin: 0;
     background: steelblue;
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -32,6 +32,7 @@ form{
     justify-items: center;
 }
 form input{
+    text-align: center;
     border: none;
     font-size: 1.3rem;
     font-weight: 100;
@@ -78,6 +79,7 @@ p {
     <div id="app">
         <form>
             <input type="text" placeholder="Digite o CEP" />
+            <input type="text" id="number" placeholder="Número" />
             <button>Consultar CEP</button>
         </form>
         <main></main>

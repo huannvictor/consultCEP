@@ -21,7 +21,8 @@ function run(event){
             }
 
             content.innerHTML = ''
-            createLine(response.data.logradouro)
+            var number = document.querySelector('input#number').value
+            createLine(response.data.logradouro +', nº ' + number)
             createLine(response.data.bairro)
             createLine(response.data.localidade +'/'+ response.data.uf)
         })

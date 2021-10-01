@@ -13,9 +13,11 @@ This project has been done from Cataline.io's Base Camp course.
 - CSS3
 - javascript
 
-#### The API address: 
+**[The API address](https://viacep.com.br/)**
 
-<h3 align='center'><em>keep scrolling to see the preview images of the final result<em></h3>
+**[Cataline.io's Website](https://www.cataline.io/)**
+
+<h3 align='center'><em>keep scrolling to see the preview images of the final result</em></h3>
 
   ---
   
@@ -31,7 +33,9 @@ Esse projeto foi feito a partir do curso no BaseCamp da Cataline.io
 - CSS3
 - javascript
 
-#### O endereço do API: 
+**[Site do API](https://viacep.com.br/)**
+
+**[Site da Cataline.io](https://www.cataline.io/)**
   
 <h3 align='center'><em>continue rolando para ver as imagens do resultado final<em></h3>
   
